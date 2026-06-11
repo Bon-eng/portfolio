@@ -12,14 +12,8 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0">
-        <img
-          src="https://readdy.ai/api/search-image?query=Dark%20abstract%20minimalist%20geometric%20background%20with%20subtle%20emerald%20green%20and%20warm%20amber%20gradient%20accents%2C%20clean%20modern%20tech%20atmosphere%2C%20soft%20dramatic%20lighting%20on%20dark%20matte%20surface%2C%20professional%20developer%20portfolio%20aesthetic%2C%20subtle%20grid%20texture%2C%20editorial%20quality%2C%20minimal%20composition%2C%20no%20text%2C%20atmospheric%20depth&width=1600&height=900&seq=hero-portfolio-ky-001&orientation=landscape"
-          alt="Dark tech abstract background"
-          className="w-full h-full object-cover object-top"
-          title="K.Y. Portfolio - ビジネスエンジニア"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-gray-900 to-background-50">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-950/30 via-transparent to-accent-950/20"></div>
       </div>
 
       <div

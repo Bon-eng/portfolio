@@ -20,7 +20,7 @@ export default function Contact() {
 
     try {
       const res = await fetch(
-        'https://readdy.ai/api/form/d8l0d1fjf7p243ot2s00',
+        'https://formspree.io/f/YOUR_FORM_ID',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -75,7 +75,6 @@ export default function Contact() {
             </div>
           ) : (
             <form
-              data-readdy-form=""
               onSubmit={handleSubmit}
               className="bg-background-50 border border-background-200/40 rounded-lg p-6 md:p-8 space-y-5"
             >
