@@ -10,7 +10,7 @@ const cards = [
   {
     title: 'IT基盤整備',
     icon: 'ri-shield-check-line',
-    tools: 'Microsoft 365 / Clomo / MDM',
+    tools: 'Microsoft 365 / Google Workspace / Clomo',
     description: '守りの基盤を整え、組織のITリスクを下げる',
   },
   {
