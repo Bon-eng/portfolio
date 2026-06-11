@@ -24,7 +24,7 @@ const businessWorks = [
   },
   {
     id: 4,
-    challenge: '生成AIの実務活用における知識検索精度の検証基盤がない',
+    challenge: '生成AI×ベクトル検索の実務活用を誰も検証していなかった',
     approach: 'Gemini × OCI AI Database 26aiを組み合わせたRAG環境を構築・検証',
     result: '検証知見が技術同人誌『OCI推し100本ノック』（技術書典）への寄稿として採用',
     tags: ['Gemini', 'OCI', 'RAG'],
