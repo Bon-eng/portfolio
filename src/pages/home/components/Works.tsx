@@ -35,9 +35,9 @@ const personalWorks = [
   {
     id: 2,
     challenge: 'イベント運営管理が煩雑で工数過多',
-    approach: 'Makeを活用したiPaaS自動化フローを構築',
-    result: '月間運営工数を大幅削減、ヒューマンエラーをゼロ化',
-    tags: ['Make', 'iPaaS'],
+    approach: 'Makeを活用したiPaaS自動化フローを構築（Google Workspace権限管理の自動化含む）',
+    result: '月50〜60時間の運営工数を削減、ヒューマンエラーをゼロ化',
+    tags: ['Make', 'iPaaS', 'Google Workspace'],
   },
   {
     id: 3,
