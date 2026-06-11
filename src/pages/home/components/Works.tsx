@@ -24,8 +24,8 @@ const businessWorks = [
   },
   {
     id: 4,
-    challengeLabel: '挑戦',
-    challenge: '社内に前例のないRAG×ベクトル検索を自律検証（Gemini × OCI AI Database 26ai）',
+    challenge: '生成AI×ベクトル検索の実務活用を誰も検証していなかった',
+    approach: 'Gemini × OCI AI Database 26aiを組み合わせたRAG環境を構築・検証',
     result: '検証知見が技術同人誌『OCI推し100本ノック』（技術書典）への寄稿として採用',
     tags: ['Gemini', 'OCI', 'RAG'],
   },
@@ -108,26 +108,24 @@ function WorkCard({ work }: { work: typeof businessWorks[number] }) {
             <i className="ri-error-warning-line text-xs"></i>
           </div>
           <div className="flex-1 min-w-0">
-            <Badge label={work.challengeLabel ?? '課題'} variant="challenge" />
+            <Badge label="課題" variant="challenge" />
             <p className="text-sm text-foreground-800 leading-relaxed font-body mt-1.5">
               {work.challenge}
             </p>
           </div>
         </div>
 
-        {work.approach && (
-          <div className="flex items-start gap-3">
-            <div className="w-6 h-6 flex items-center justify-center rounded flex-shrink-0 mt-0.5" style={{ backgroundColor: 'rgba(245,158,11,0.1)', color: '#f59e0b' }}>
-              <i className="ri-tools-line text-xs"></i>
-            </div>
-            <div className="flex-1 min-w-0">
-              <Badge label="手段" variant="approach" />
-              <p className="text-sm text-foreground-800 leading-relaxed font-body mt-1.5">
-                {work.approach}
-              </p>
-            </div>
+        <div className="flex items-start gap-3">
+          <div className="w-6 h-6 flex items-center justify-center rounded flex-shrink-0 mt-0.5" style={{ backgroundColor: 'rgba(245,158,11,0.1)', color: '#f59e0b' }}>
+            <i className="ri-tools-line text-xs"></i>
           </div>
-        )}
+          <div className="flex-1 min-w-0">
+            <Badge label="手段" variant="approach" />
+            <p className="text-sm text-foreground-800 leading-relaxed font-body mt-1.5">
+              {work.approach}
+            </p>
+          </div>
+        </div>
 
         <div className="flex items-start gap-3">
           <div className="w-6 h-6 flex items-center justify-center rounded flex-shrink-0 mt-0.5" style={{ backgroundColor: 'rgba(16,185,129,0.1)', color: '#10b981' }}>
