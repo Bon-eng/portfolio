@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #030712;
+    color: #e2e8f0;
+    font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
