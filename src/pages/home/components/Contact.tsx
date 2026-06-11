@@ -14,17 +14,15 @@ export default function Contact() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    const urlEncoded = new URLSearchParams(
-      formData as unknown as Record<string, string>
-    ).toString();
+    const data = Object.fromEntries(formData.entries());
 
     try {
       const res = await fetch(
         'https://formspree.io/f/mzdqagjg',
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: urlEncoded,
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(data),
         }
       );
       if (res.ok) {
