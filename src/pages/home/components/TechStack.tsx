@@ -7,7 +7,7 @@ const categories = [
   },
   {
     name: 'Cloud & Infra',
-    items: ['Microsoft 365', 'Clomo', 'OCI'],
+    items: ['Microsoft 365', 'Clomo', 'OCI', 'Google Workspace'],
   },
   {
     name: 'Development',
