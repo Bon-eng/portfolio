@@ -24,9 +24,10 @@ const businessWorks = [
   },
   {
     id: 4,
-    challenge: '生成AI×ベクトル検索の実務活用を誰も検証していなかった',
+    challenge: '社内で最新技術に関する検証をしていなかった',
     approach: 'Gemini × OCI AI Database 26aiを組み合わせたRAG環境を構築・検証',
-    result: '検証知見が技術同人誌『OCI推し100本ノック』（技術書典）への寄稿として採用',
+    result: 'Oracle社の目に留まり、技術書典『OCI推し100本ノック』への寄稿として採用',
+    resultLink: { url: 'https://qiita.com/ilvck/private/cd9f4e0ede783666abb5', label: '（Qiita記事はこちら）' },
     tags: ['Gemini', 'OCI', 'RAG'],
   },
 ];
@@ -135,6 +136,16 @@ function WorkCard({ work }: { work: typeof businessWorks[number] }) {
             <Badge label="結果" variant="result" />
             <p className="text-sm text-foreground-800 leading-relaxed font-body mt-1.5">
               {work.result}
+              {work.resultLink && (
+                <a
+                  href={work.resultLink.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-1 text-accent-400 hover:text-accent-300 underline underline-offset-2 transition-colors"
+                >
+                  {work.resultLink.label}
+                </a>
+              )}
             </p>
           </div>
         </div>
