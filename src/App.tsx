@@ -1,26 +1,17 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import WhatIDo from './components/WhatIDo'
-import Works from './components/Works'
-import TechStack from './components/TechStack'
-import Contact from './components/Contact'
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./router";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-950">
-      <Header />
-      <main>
-        <Hero />
-        <WhatIDo />
-        <Works />
-        <TechStack />
-        <Contact />
-      </main>
-      <footer className="border-t border-gray-800 py-8 text-center text-slate-600 text-sm">
-        © 2025 K.H. All rights reserved.
-      </footer>
-    </div>
-  )
+    <I18nextProvider i18n={i18n}>
+      <BrowserRouter basename={__BASE_PATH__}>
+        <AppRoutes />
+      </BrowserRouter>
+    </I18nextProvider>
+  );
 }
 
-export default App
+export default App;
