@@ -20,7 +20,7 @@ export default function Contact() {
 
     try {
       const res = await fetch(
-        'https://formspree.io/f/YOUR_FORM_ID',
+        'https://formspree.io/f/mzdqagjg',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
