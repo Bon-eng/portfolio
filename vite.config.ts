@@ -5,6 +5,9 @@ import AutoImport from "unplugin-auto-import/vite";
 const base = process.env.BASE_PATH || "/";
 
 export default defineConfig({
+  define: {
+    __BASE_PATH__: JSON.stringify(base),
+  },
   plugins: [
     react(),
     AutoImport({
