@@ -29,10 +29,10 @@ export default function Contact() {
         setSubmitted(true);
         form.reset();
       } else {
-        setError('送信に失敗しました。恐れ入りますがメールにて直接ご連絡ください。');
+        setError('送信に失敗しました。恐れ入りますが、時間をおいて再度お試しください。');
       }
     } catch {
-      setError('送信に失敗しました。恐れ入りますがメールにて直接ご連絡ください。');
+      setError('送信に失敗しました。恐れ入りますが、時間をおいて再度お試しください。');
     } finally {
       setSubmitting(false);
     }
@@ -49,7 +49,7 @@ export default function Contact() {
             お問い合わせ
           </h2>
           <p className="text-foreground-600 text-sm mt-4 font-body">
-            お問い合わせはメールにてお気軽にどうぞ。
+            下記フォームよりお気軽にどうぞ。
           </p>
         </div>
 
