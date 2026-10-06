@@ -55,35 +55,35 @@ const businessWorks = [
 
 const personalWorks = [
   {
-    id: 2,
+    id: 1,
     challenge: 'イベント運営管理が煩雑で工数過多',
     approach: 'Makeを活用したiPaaS自動化フローを構築（Google Workspace権限管理の自動化含む）',
     result: '月50〜60時間の運営工数を削減、ヒューマンエラーをゼロ化',
     tags: ['Make', 'iPaaS', 'Google Workspace'],
   },
   {
-    id: 3,
+    id: 2,
     challenge: '経費精算の手間とミスが現場負担に',
     approach: 'LINE × GAS × Claude APIで精算ツールを内製',
     result: 'スマホ完結の精算フローを実現',
     tags: ['LINE API', 'GAS', 'Claude API'],
   },
   {
-    id: 4,
+    id: 3,
     challenge: 'ウェブ発信基盤がない',
     approach: 'React 19 × Vite × TypeScript × Tailwind × Vercelで構築',
     result: 'GA4/GTM・Meta Pixel・問い合わせフォーム込みで本番運用中',
     tags: ['React 19', 'TypeScript', 'Vercel'],
   },
   {
-    id: 5,
+    id: 4,
     challenge: 'SNSデータの分析基盤がない',
     approach: 'dlt × GitHub Actions × BigQuery × Looker Studioでパイプライン構築',
     result: 'SoundCloud / Instagram / YouTube Analytics APIからの自動収集・可視化を実現',
     tags: ['dlt', 'BigQuery', 'Looker Studio'],
   },
   {
-    id: 6,
+    id: 5,
     challenge: '訪日外国人向け観光情報の収集・音声コンテンツ化が手作業で再現性がない',
     approach: 'Python × Claude API × ElevenLabs × HyperFrames × FFmpegで、スクレイピング→台本生成→音声合成→縦型動画生成までの自動パイプラインを構築',
     result: 'Podcast 3プラットフォーム（Spotify / Apple Podcasts / Amazon Music）配信済み、TikTok / Instagram Reels用縦型動画の自動生成を実現',
