@@ -33,7 +33,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-foreground-600 text-sm md:text-base max-w-2xl mx-auto mb-10 leading-relaxed font-body">
-          折衝力と実装力で、誰も仕組み化していなかった課題を解決します。
+          自走して課題を見つけ、関係者を巻き込み、あるべき姿へ最短で。
+          <br className="hidden sm:block" />
+          ISMS推進から業務自動化まで、守りと攻めの両面で仕組みをつくります。
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

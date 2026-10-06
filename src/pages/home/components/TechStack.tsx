@@ -3,11 +3,15 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 const categories = [
   {
     name: 'Automation',
-    items: ['Make', 'Power Automate', 'Google Apps Script'],
+    items: ['Make', 'Power Automate', 'Google Apps Script', 'PowerShell', 'Microsoft Graph API'],
   },
   {
     name: 'Cloud & Infra',
-    items: ['Microsoft 365', 'Clomo', 'OCI', 'Google Workspace'],
+    items: ['Microsoft 365', 'Entra ID', 'Intune', 'Exchange Online', 'SharePoint', 'Purview', 'Clomo', 'OCI', 'Google Workspace'],
+  },
+  {
+    name: 'Security',
+    items: ['ISMS (ISO/IEC 27001)', 'リスクアセスメント', '情報資産管理', 'アカウント棚卸し'],
   },
   {
     name: 'Development',
@@ -15,7 +19,7 @@ const categories = [
   },
   {
     name: 'AI',
-    items: ['Claude API', 'Gemini', 'RAG', 'Prompt Engineering', 'ElevenLabs'],
+    items: ['Claude API', 'Claude Code', 'Gemini','RAG', 'Prompt Engineering', 'ElevenLabs'],
   },
   {
     name: 'Data',
