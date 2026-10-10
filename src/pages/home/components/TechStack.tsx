@@ -7,7 +7,7 @@ const categories = [
   },
   {
     name: 'Cloud & Infra',
-    items: ['Microsoft 365', 'Entra ID', 'Intune', 'Exchange Online', 'SharePoint', 'Purview', 'Clomo', 'OCI', 'Google Workspace'],
+    items: ['Microsoft 365', 'Entra ID', 'Intune', 'Exchange Online', 'SharePoint', 'Purview', 'Clomo', 'OCI', 'Google Workspace', 'WSL2', 'Vast.ai'],
   },
   {
     name: 'Security',
@@ -19,7 +19,7 @@ const categories = [
   },
   {
     name: 'AI',
-    items: ['Claude API', 'Claude Code', 'Gemini','RAG', 'Prompt Engineering', 'ElevenLabs'],
+    items: ['Claude API', 'Claude Code', 'Gemini','RAG', 'Prompt Engineering', 'ElevenLabs', 'Ollama', 'llama.cpp', 'abliteration'],
   },
   {
     name: 'Data',
