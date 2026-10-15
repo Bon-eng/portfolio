@@ -59,13 +59,13 @@
   --foreground-100: 0.18 0 0;
   --foreground-200: 0.25 0.01 0;
   --foreground-300: 0.32 0.01 0;
-  --foreground-400: 0.40 0.01 0;
-  --foreground-500: 0.48 0.01 0;
-  --foreground-600: 0.56 0.01 0;
-  --foreground-700: 0.65 0.01 0;
-  --foreground-800: 0.75 0.01 0;
-  --foreground-900: 0.88 0.01 0;
-  --foreground-950: 0.96 0 0;
+  --foreground-400: 0.76 0.01 0;
+  --foreground-500: 0.84 0.01 0;
+  --foreground-600: 0.93 0.01 0;
+  --foreground-700: 0.93 0.01 0;
+  --foreground-800: 0.94 0.01 0;
+  --foreground-900: 0.95 0.01 0;
+  --foreground-950: 0.98 0 0;
 }
 
 * {

@@ -45,7 +45,7 @@ export default function WhatIDo() {
           {cards.map((card, i) => (
             <div
               key={card.title}
-              className="group bg-background-100/80 border border-background-200/40 rounded-lg p-6 md:p-8 hover:border-primary-500/30 transition-all duration-300"
+              className="group bg-background-100/80 border-2 border-foreground-950/20 rounded-lg p-6 md:p-8 hover:border-primary-500/60 transition-all duration-300"
             >
               <div className="w-12 h-12 flex items-center justify-center rounded-md bg-primary-500/10 text-primary-400 mb-5 group-hover:bg-primary-500/20 transition-colors">
                 <i className={`${card.icon} text-xl`}></i>

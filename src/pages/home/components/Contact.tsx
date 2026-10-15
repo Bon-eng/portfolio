@@ -74,7 +74,7 @@ export default function Contact() {
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="bg-background-50 border border-background-200/40 rounded-lg p-6 md:p-8 space-y-5"
+              className="bg-background-50 border-2 border-foreground-950/20 rounded-lg p-6 md:p-8 space-y-5"
             >
               <div>
                 <label
@@ -88,7 +88,7 @@ export default function Contact() {
                   id="name"
                   name="name"
                   required
-                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500 focus:outline-none focus:border-primary-500/50 transition-colors font-body"
+                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500/50 focus:outline-none focus:border-primary-500/50 transition-colors font-body"
                   placeholder="山田 太郎"
                 />
               </div>
@@ -105,7 +105,7 @@ export default function Contact() {
                   id="email"
                   name="email"
                   required
-                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500 focus:outline-none focus:border-primary-500/50 transition-colors font-body"
+                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500/50 focus:outline-none focus:border-primary-500/50 transition-colors font-body"
                   placeholder="example@email.com"
                 />
               </div>
@@ -123,7 +123,7 @@ export default function Contact() {
                   required
                   maxLength={500}
                   rows={5}
-                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500 focus:outline-none focus:border-primary-500/50 transition-colors resize-none font-body"
+                  className="w-full bg-background-100 border border-background-200/50 rounded-md px-4 py-2.5 text-sm text-foreground-950 placeholder:text-foreground-500/50 focus:outline-none focus:border-primary-500/50 transition-colors resize-none font-body"
                   placeholder="お問い合わせ内容をご記入ください（500文字以内）"
                 ></textarea>
                 <p className="text-[10px] text-foreground-500 mt-1 font-mono text-right">

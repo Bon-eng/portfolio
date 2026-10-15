@@ -68,7 +68,7 @@ export default function TechStack() {
                 {cat.items.map((item) => (
                   <span
                     key={item}
-                    className="inline-block px-3 py-1.5 rounded-md bg-secondary-200/50 border border-secondary-300/50 text-xs text-foreground-800 font-mono hover:border-accent-500/40 hover:text-accent-500 transition-all duration-200 cursor-default"
+                    className="inline-block px-3 py-1.5 rounded-md bg-foreground-950/[0.06] border border-foreground-950/30 text-xs text-foreground-800 font-mono hover:border-accent-500/40 hover:text-accent-500 transition-all duration-200 cursor-default"
                   >
                     {item}
                   </span>

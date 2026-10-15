@@ -123,7 +123,7 @@ function Badge({ label, variant }: { label: string; variant: 'challenge' | 'appr
 
 function WorkCard({ work }: { work: typeof businessWorks[number] }) {
   return (
-    <div className="group bg-background-50 border border-background-200/40 rounded-lg p-6 hover:border-accent-500/20 transition-all duration-300 flex flex-col">
+    <div className="group bg-background-50 border-2 border-foreground-950/20 rounded-lg p-6 hover:border-accent-500/60 transition-all duration-300 flex flex-col">
       <div className="flex items-center gap-2 mb-5">
         <span className="font-mono text-xs text-accent-400 font-bold">
           {String(work.id).padStart(2, '0')}
@@ -179,12 +179,12 @@ function WorkCard({ work }: { work: typeof businessWorks[number] }) {
         </div>
       </div>
 
-      <div className="mt-5 pt-4 border-t border-background-200/40">
+      <div className="mt-5 pt-4 border-t border-foreground-950/10">
         <div className="flex flex-wrap gap-1.5">
           {work.tags.map((tag) => (
             <span
               key={tag}
-              className="inline-block px-2 py-0.5 rounded text-[10px] font-mono text-foreground-500 bg-background-100 border border-background-200/60"
+              className="inline-block px-2 py-0.5 rounded text-[10px] font-mono text-foreground-500 bg-foreground-950/[0.06] border border-foreground-950/30"
             >
               {tag}
             </span>
