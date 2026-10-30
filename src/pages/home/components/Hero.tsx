@@ -27,7 +27,7 @@ export default function Hero() {
         </p>
 
         <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-foreground-950 leading-tight mb-6">
-          営業10年 × 情シス × AI実装。
+          営業10年 × 情報システム × AI実装。
           <br />
           <span className="text-primary-400">繰り返す課題を、繰り返さない仕組みへ</span>
         </h1>

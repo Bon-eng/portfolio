@@ -3,7 +3,7 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 const businessWorks = [
   {
     id: 1,
-    challenge: '情シス1名体制で、端末・アカウントの実態把握とIT統制の土台づくりが必要だった',
+    challenge: '情報システム担当1名体制で、端末・アカウントの実態把握とIT統制の土台づくりが必要だった',
     approach: 'PowerShellで端末棚卸しの仕組みを作成し、Microsoft Graph APIで約330アカウントを棚卸し',
     result: '名簿46名中42名分を回収し、IT資産リストを自動生成する運用に。不要・持ち主不明の有償アカウント（年間約50万円分）を特定',
     tags: ['PowerShell', 'Microsoft Graph API', 'Microsoft 365'],
